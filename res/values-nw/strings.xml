@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Statnor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_bodyguard_plus">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+
+    <string name="bodyguard_label">Scroll for your connects</string>
+    
+    <string name="shared_pref">mvc.accound.information</string>
+    
+    <string name="terms_condition">Vilkår og betingelser</string>
+    <string name="relax_for_a_while">Vent et øyeblikk</string>
+    <string name="read_terms_conditions">Jeg har lest og godtar vilkårene og betingelsene</string>
+    <string name="agree_terms_conditions">Jeg godtar</string>
+    <string name="logout">Logout</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="do_you_want_to_log_out">Ønsker å logge ut?</string>
+    
+    <!-- login -->
+    <string name="login_page">Logg inn side</string>
+    <string name="email_id">Email adresse</string>
+    <string name="password">Passord</string>
+    <string name="login">Logg inn</string>
+    <string name="new_register">Ny registrering</string>
+    <string name="remeber_password">Remember Password</string>
+    
+    <!-- register -->
+    <string name="customer_id">Kundeid</string>
+    <string name="full_name">Fullt navn</string>
+    <string name="street">Gate</string>
+    <string name="area">Area</string>
+    <string name="town">Poststed</string>
+    <string name="post_code">Poststednr</string>
+    <string name="phone_number">Poststednr</string>
+    <string name="select_service">   Select Service</string>
+    <string name="home_version">Home Version (free)</string>
+    <string name="register">Registrer</string>
+    
+    <!-- home -->
+    <string name="burglary">Innbrudd</string>
+    <string name="fire">Brann</string>
+    <string name="duress">Press/tvang</string>
+    <string name="medical">Lege</string>
+    <string name="emergency">Nødmelding</string>
+    <string name="upgrade">Oppgradere</string>
+    
+    <!-- add_bodyguard -->
+    <string name="add_account">Add Account</string>
+    
+</resources>

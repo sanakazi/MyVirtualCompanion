@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="line">#D0D5D8</color>
+    <color name="black">#000000</color>
+    <color name="text_blue">#007BFF</color>
+    <color name="Navy_Blue">#1E9BAF</color>
+    <color name="nodatafound_bg">#E6E6EA</color>
+    <color name="battleship_grey">#848482</color>
+    <color name="header_green">#769E2E</color>
+    <color name="header_blue">#3FAECC</color>
+
+</resources>

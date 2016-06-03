@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/new_register"
+            android:textColor="@color/Navy_Blue" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/h_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom|center_horizontal" >
+
+        <ImageView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.1"
+        android:gravity="bottom|center_horizontal" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etCustId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/customer_id"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/full_name"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etStreet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/street"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etAreaName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/area"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/town"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etPostCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/post_code"
+                    android:inputType="number"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etPhoneNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/email_id"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_service"
+                        android:textSize="17sp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/home_version" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_button"
+                    android:text="@string/register"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_condition"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

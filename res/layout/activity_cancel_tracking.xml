@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/Navy_Blue"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="85"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:src="@drawable/logo"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="70"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtTracker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Abc is tracking you."
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="275dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/login_button"
+                android:gravity="center"
+                android:text="✔  Complete Tracking"
+                android:textColor="@android:color/white"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@android:color/black"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminos y Condiciones"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

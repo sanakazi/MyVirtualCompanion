@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hospi digital</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_bodyguard_plus">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+
+    <string name="bodyguard_label">Scroll for your connects</string>
+    
+    <string name="shared_pref">mvc.accound.information</string>
+    
+    <string name="terms_condition">Terms and Conditions</string>
+    <string name="relax_for_a_while">Relax for a while</string>
+    <string name="read_terms_conditions">I have read and agree to the terms and conditions</string>
+    <string name="agree_terms_conditions">I Agree</string>
+    <string name="logout">Logout</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="do_you_want_to_log_out">Are you sure you want to logout ?</string>
+    
+    <!-- login -->
+    <string name="login_page">Login Page</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_register">New Registration</string>
+    <string name="remeber_password">Remember Password</string>
+    
+    <!-- register -->
+    <string name="customer_id">Customer Id</string>
+    <string name="full_name">Full Name</string>
+    <string name="street">Street</string>
+    <string name="area">Area</string>
+    <string name="town">Town / City</string>
+    <string name="post_code">Post Code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="select_service">Select Service</string>
+    <string name="home_version">Home Version (free)</string>
+    <string name="register">Register</string>
+    
+    <!-- home -->
+    <string name="burglary">Burglary</string>
+    <string name="fire">Fire</string>
+    <string name="duress">Duress</string>
+    <string name="medical">Medical</string>
+    <string name="emergency">Emergency</string>
+    <string name="upgrade">Upgrade</string>
+    
+    <!-- add_bodyguard -->
+    <string name="add_account">Add Account</string>
+    
+</resources>

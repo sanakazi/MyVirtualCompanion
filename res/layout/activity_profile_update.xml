@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="bottom|center_horizontal" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/full_name"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etStreet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/street"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etAreaName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/area"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/town"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etPostCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/post_code"
+                    android:inputType="number"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:id="@+id/etPhoneNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_info_text_box"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:paddingLeft="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" 
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnUpdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/login_button"
+                        android:text="@string/upgrade"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp" />
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/login_button"
+                        android:text="Cancel"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:layout_weight="1" 
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_condition"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>
